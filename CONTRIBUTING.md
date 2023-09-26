@@ -2,19 +2,19 @@
 # Report an Issue
 
 Help us make AngularEditor better! If you think you might have found a bug, or some other weirdness, start by making sure
-it hasn't already been reported. You can [search through existing @sufian/new-angular-editor issues](https://github.com/kolkov/angular-editor/issues)
+it hasn't already been reported. You can [search through existing new-angular-editor issues](https://github.com/sufian1985/new-angular-editor/issues)
 to see if someone's reported one similar to yours.
 
 If not, then [create a plunkr](http://bit.ly/UIR-Plunk) that demonstrates the problem (try to use as little code
 as possible: the more minimalist, the faster we can debug it).
 
-Next, [create a new issue](https://github.com/kolkov/angular-editor/issues/new) that briefly explains the problem,
+Next, [create a new issue](https://github.com/sufian1985/new-angular-editor/issues/new) that briefly explains the problem,
 and provides a bit of background as to the circumstances that triggered it. Don't forget to include the link to
 that plunkr you created!
 
 **Note**: If you're unsure how a feature is used, or are encountering some unexpected behavior that you aren't sure
 is a bug, it's best to talk it out on
-[StackOverflow](http://stackoverflow.com/questions/ask?tags=angular,@sufian/new-angular-editor) before reporting it. This
+[StackOverflow](http://stackoverflow.com/questions/ask?tags=angular,new-angular-editor) before reporting it. This
 keeps development streamlined, and helps us focus on building great software.
 
 
@@ -26,9 +26,9 @@ Please keep in mind that the issue tracker is for *issues*. Please do *not* post
 
 **(1)** See the **[Developing](#developing)** section below, to get the development version of AngularEditor up and running on your local machine.
 
-**(2)** Check out the [roadmap](https://github.com/kolkov/angular-editor/milestones) to see where the project is headed, and if your feature idea fits with where we're headed.
+**(2)** Check out the [roadmap](https://github.com/sufian1985/new-angular-editor/milestones) to see where the project is headed, and if your feature idea fits with where we're headed.
 
-**(3)** If you're not sure, [open an RFC](https://github.com/kolkov/angular-editor/issues/new?title=RFC:%20My%20idea) to get some feedback on your idea.
+**(3)** If you're not sure, [open an RFC](https://github.com/sufian1985/new-angular-editor/issues/new?title=RFC:%20My%20idea) to get some feedback on your idea.
 
 **(4)** Finally, commit some code and open a pull request. Code & commits should abide by the following rules:
 
@@ -47,14 +47,14 @@ Please keep in mind that the issue tracker is for *issues*. Please do *not* post
 
 The code for `angular-editor` is :
 
-* [AngularEditor](https://github.com/kolkov/angular-editor) (`@sufian/new-angular-editor` on npm)
+* [AngularEditor](https://github.com/sufian1985/new-angular-editor) (`new-angular-editor` on npm)
 
 Clone repository.
 
 ```
 mkdir angular-editor
 cd angular-editor
-git clone https://github.com/kolkov/angular-editor.git
+git clone https://github.com/sufian1985/new-angular-editor.git
 ```
 
 ## Install dependencies
@@ -66,10 +66,10 @@ cd angular-editor
 npm install
 ```
 
-After executing these steps, your local copy of `@sufian/new-angular-editor-app` will be built using your local copy of `@sufian/new-angular-editor`
+After executing these steps, your local copy of `new-angular-editor-app` will be built using your local copy of `new-angular-editor`
 instead of the prebuilt version specified in `package.json`.
 
 ## Develop
 
-* `npm run build and watch angular-editor`: Continuously builds the `@sufian/new-angular-editor` code when sources change.
+* `npm run build and watch angular-editor`: Continuously builds the `new-angular-editor` code when sources change.
 * `npm run start`: Continuously builds and runs Demo app when source or tests change.

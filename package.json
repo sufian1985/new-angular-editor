@@ -1,6 +1,6 @@
 {
-  "name": "@sufian/new-angular-editor",
-  "version": "1.0.0",
+  "name": "new-angular-editor",
+  "version": "1.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
