@@ -2,7 +2,7 @@
 # Report an Issue
 
 Help us make AngularEditor better! If you think you might have found a bug, or some other weirdness, start by making sure
-it hasn't already been reported. You can [search through existing @kolkov/angular-editor issues](https://github.com/kolkov/angular-editor/issues)
+it hasn't already been reported. You can [search through existing @sufian/new-angular-editor issues](https://github.com/kolkov/angular-editor/issues)
 to see if someone's reported one similar to yours.
 
 If not, then [create a plunkr](http://bit.ly/UIR-Plunk) that demonstrates the problem (try to use as little code
@@ -14,7 +14,7 @@ that plunkr you created!
 
 **Note**: If you're unsure how a feature is used, or are encountering some unexpected behavior that you aren't sure
 is a bug, it's best to talk it out on
-[StackOverflow](http://stackoverflow.com/questions/ask?tags=angular,@kolkov/angular-editor) before reporting it. This
+[StackOverflow](http://stackoverflow.com/questions/ask?tags=angular,@sufian/new-angular-editor) before reporting it. This
 keeps development streamlined, and helps us focus on building great software.
 
 
@@ -47,7 +47,7 @@ Please keep in mind that the issue tracker is for *issues*. Please do *not* post
 
 The code for `angular-editor` is :
 
-* [AngularEditor](https://github.com/kolkov/angular-editor) (`@kolkov/angular-editor` on npm)
+* [AngularEditor](https://github.com/kolkov/angular-editor) (`@sufian/new-angular-editor` on npm)
 
 Clone repository.
 
@@ -66,10 +66,10 @@ cd angular-editor
 npm install
 ```
 
-After executing these steps, your local copy of `@kolkov/angular-editor-app` will be built using your local copy of `@kolkov/angular-editor`
+After executing these steps, your local copy of `@sufian/new-angular-editor-app` will be built using your local copy of `@sufian/new-angular-editor`
 instead of the prebuilt version specified in `package.json`.
 
 ## Develop
 
-* `npm run build and watch angular-editor`: Continuously builds the `@kolkov/angular-editor` code when sources change.
+* `npm run build and watch angular-editor`: Continuously builds the `@sufian/new-angular-editor` code when sources change.
 * `npm run start`: Continuously builds and runs Demo app when source or tests change.

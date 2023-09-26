@@ -136,7 +136,7 @@ export class AngularEditorToolbarComponent {
     if (classes) {
       this._customClasses = classes;
       this.customClassList = this._customClasses.map((x, i) => ({label: x.name, value: i.toString()}));
-      this.customClassList.unshift({label: 'Clear Class', value: '-1'});
+      this.customClassList.unshift({label: 'Black Text Color', value: '-1'});
     }
   }
 

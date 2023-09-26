@@ -6,8 +6,8 @@
 [![npm version](https://badge.fury.io/js/%40kolkov%2Fangular-editor.svg)](https://badge.fury.io/js/%40kolkov%2Fangular-editor)
 [![demo](https://img.shields.io/badge/demo-StackBlitz-blueviolet.svg)](https://stackblitz.com/edit/angular-editor-wysiwyg)
 [![Build Status](https://travis-ci.com/kolkov/angular-editor.svg?branch=master)](https://travis-ci.com/kolkov/angular-editor)
-[![npm](https://img.shields.io/npm/dm/@kolkov/angular-editor.svg)](https://www.npmjs.com/package/@kolkov/angular-editor)
-[![](https://data.jsdelivr.com/v1/package/npm/@kolkov/angular-editor/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@kolkov/angular-editor)
+[![npm](https://img.shields.io/npm/dm/@sufian/new-angular-editor.svg)](https://www.npmjs.com/package/@sufian/new-angular-editor)
+[![](https://data.jsdelivr.com/v1/package/npm/@sufian/new-angular-editor/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@sufian/new-angular-editor)
 [![Coverage Status](https://coveralls.io/repos/github/kolkov/angular-editor/badge.svg?branch=master)](https://coveralls.io/github/kolkov/angular-editor?branch=master)
 [![codecov](https://codecov.io/gh/kolkov/angular-editor/branch/master/graph/badge.svg)](https://codecov.io/gh/kolkov/angular-editor)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/AndreyKolkov)
@@ -27,7 +27,7 @@ A simple native WYSIWYG/Rich Text editor for Angular 6-14+
 Install via [npm][npm] package manager 
 
 ```bash
-npm install @kolkov/angular-editor --save
+npm install @sufian/new-angular-editor --save
 ```
 ### Versions
 
@@ -45,7 +45,7 @@ Import `angular-editor` module
 
 ```js
 import { HttpClientModule} from '@angular/common/http';
-import { AngularEditorModule } from '@kolkov/angular-editor';
+import { AngularEditorModule } from '@sufian/new-angular-editor';
 
 @NgModule({
   imports: [ HttpClientModule, AngularEditorModule ]
@@ -74,7 +74,7 @@ if you using more than one editor on same page set `id` property
 where
 
 ```js
-import { AngularEditorConfig } from '@kolkov/angular-editor';
+import { AngularEditorConfig } from '@sufian/new-angular-editor';
 
 
 editorConfig: AngularEditorConfig = {
@@ -131,7 +131,7 @@ To serve the fontawesome files, ensure that your angular.json contains the follo
 ```
 {
   "glob": "**/*",
-  "input": "./node_modules/@kolkov/angular-editor/assets/",
+  "input": "./node_modules/@sufian/new-angular-editor/assets/",
   "output": "./assets/fonts/"
 }
 ```
@@ -286,6 +286,6 @@ See [the Releases section of our project](https://github.com/kolkov/angular-edit
 
 If you like my work and I save your time you can buy me a :beer: or :pizza: [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/AndreyKolkov)
 
-[npm]: https://www.npmjs.com/package/@kolkov/angular-editor
+[npm]: https://www.npmjs.com/package/@sufian/new-angular-editor
 [demo]: https://angular-editor-wysiwyg.stackblitz.io/
 [example]: https://stackblitz.com/edit/angular-editor-wysiwyg
