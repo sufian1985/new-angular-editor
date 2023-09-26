@@ -1,6 +1,6 @@
 {
   "name": "new-angular-editor",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple native WYSIWYG editor for Angular 8+, 13+. Rich Text editor component for Angular.",
   "author": "Andrey Kolkov <a.kolkov@gmail.com>",
   "repository": "https://github.com/sufian1985/new-angular-editor",
